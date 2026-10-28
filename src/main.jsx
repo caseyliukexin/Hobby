@@ -14,7 +14,7 @@ const order=getExhibitionOrder(originalChapters);
 
 const reveal={initial:{opacity:0,y:30},whileInView:{opacity:1,y:0},viewport:{once:true,amount:.12},transition:{duration:.8}};
 function App(){
-  const {t,copy}=useLocale();
+  const {t,copy,locale,secondaryCopy}=useLocale();
   const artworks=originalArtworks.map(a=>({...a,...copy.artworks[a.id]}));
   const chapters=originalChapters.map(c=>({...c,...copy.chapters[c.id]}));
   const artworkById=Object.fromEntries(artworks.map(a=>[a.id,a]));
@@ -42,7 +42,7 @@ function App(){
     <section id="entrance" tabIndex={-1} className="hero" aria-labelledby="title"><img className="hero-art" src={hero.image} alt=""/><div className="hero-shade"/>
       <motion.div className="hero-content" initial={{opacity:0,y:20}} animate={{opacity:1,y:0}} transition={{duration:1.2}}>
         <p className="eyebrow"><span/>{t('subtitle')}</p>
-        <h1 id="title">{t('titleFirst')}<br/><em>{t('titleSecond')}</em></h1><p className="hero-chinese" aria-hidden="true">&nbsp;</p>
+        <h1 id="title">{t('titleFirst')}<br/><em>{t('titleSecond')}</em></h1><p className={locale==='zh-CN'?'hero-chinese hero-title-secondary':'hero-chinese'} lang={locale==='zh-CN'?'en':undefined} aria-hidden={locale==='en'?true:undefined}>{locale==='zh-CN'?secondaryCopy.ui.title:'\u00a0'}</p>
         <p className="hero-copy">{t('statementFirst')}<br/>{t('statementSecond')}</p>
         <div className="hero-actions"><button className="gold-button" onClick={()=>open(order[0])}>{t('enter')}<ArrowRight size={18}/></button><a className="hero-secondary" href="#exhibition">{t('exploreAll')}<ArrowUpRight size={16}/></a></div>
       </motion.div>
@@ -50,9 +50,9 @@ function App(){
     </section>
     <main>
       <section id="exhibition" tabIndex={-1} className="intro section-pad"><motion.div {...reveal}><p className="eyebrow">{t('complete')}</p><h2>{t('introFirst')}<br/><em>{t('introSecond')}</em></h2></motion.div><motion.div {...reveal} className="intro-copy"><p>{t('dialogueFirst')}<br/>{t('dialogueSecond')}</p><p>{t('dimensions')}<br/>{t('journey')}</p><button className="text-link" onClick={()=>open(order[0])}>{t('beginAlmond')}<ArrowRight size={17}/></button></motion.div></section>
-      <nav id="chapters" className="chapter-nav" aria-label={t('fiveActs')}>{chapters.map(c=><a href={'#'+c.id} key={c.id}><span>{t('actLabel',{number:c.number})}</span><strong>{c.dimension}</strong><small aria-hidden="true">&nbsp;</small><ArrowUpRight size={15}/></a>)}</nav>
+      <nav id="chapters" className="chapter-nav" aria-label={t('fiveActs')}>{chapters.map(c=><a href={'#'+c.id} key={c.id}><span className="directory-number">{c.number}</span><span className="directory-titles"><strong lang={locale}>{c.title}</strong><small lang={locale==='zh-CN'?'en':'zh-CN'}>{secondaryCopy.chapters[c.id].title}</small></span><ArrowUpRight size={15} aria-hidden="true"/></a>)}</nav>
       {chapters.map((c,chapterIndex)=><section key={c.id} id={c.id} className={'gallery chapter section-pad '+c.palette} aria-labelledby={c.id+'-title'}>
-        <motion.div {...reveal} className="gallery-heading"><div><p className="eyebrow">{t('actLabel',{number:c.number})}<span className="rule"/>{c.dimension.toUpperCase()}</p><h2 id={c.id+'-title'}>{c.title}<span>{t('chapterPeriod')}</span></h2><p className="chapter-chinese" aria-hidden="true">&nbsp;</p></div><p className="gallery-description">{c.introduction}</p></motion.div>
+        <motion.div {...reveal} className="gallery-heading"><div><p className="eyebrow">{t('actLabel',{number:c.number})}<span className="rule"/>{c.dimension.toUpperCase()}</p><h2 id={c.id+'-title'}>{c.title}<span>{t('chapterPeriod')}</span></h2><p className="chapter-chinese act-title-secondary" lang={locale==='zh-CN'?'en':'zh-CN'}>{secondaryCopy.chapters[c.id].title}</p></div><p className="gallery-description">{c.introduction}</p></motion.div>
         <div className="art-grid">{c.artworkIds.map((id,index)=>artworkById[id]&&<ArtworkCard key={id} artwork={artworkById[id]} number={chapterIndex*4+index+1} index={index} onOpen={open}/>)}</div>
         <div className="chapter-end"><a href="#chapters">{t('chooseAct')} ↑</a>{chapterIndex<chapters.length-1?<a href={'#'+chapters[chapterIndex+1].id}>{t('nextAct',{number:chapters[chapterIndex+1].number})} <ArrowRight size={15}/></a>:<a href="#conclusion">{t('continue')}<ArrowRight size={15}/></a>}</div>
       </section>)}

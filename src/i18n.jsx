@@ -16,7 +16,7 @@ export function LocaleProvider({children}) {
     document.querySelector('meta[property="og:locale"]')?.setAttribute('content',locale==='en'?'en_US':'zh_CN');
     try{localStorage.setItem(STORAGE_KEY,locale);}catch{/* Language switching also works with storage blocked. */}
   },[locale,copy]);
-  const value=useMemo(()=>({locale,copy,setLocale,t:(key,values)=>formatMessage(copy.ui[key],values)}),[locale,copy]);
+  const value=useMemo(()=>({locale,copy,secondaryCopy:dictionaries[locale==='zh-CN'?'en':'zh-CN'],setLocale,t:(key,values)=>formatMessage(copy.ui[key],values)}),[locale,copy]);
   return <LocaleContext.Provider value={value}>{children}</LocaleContext.Provider>;
 }
 export function useLocale(){return useContext(LocaleContext);}

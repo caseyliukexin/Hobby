@@ -51,3 +51,17 @@ header>.language-switch{position:fixed;right:20px;top:20px;z-index:10}
 :lang(zh-CN) .hero h1 em{font-style:normal}
 :lang(zh-CN) .description,:lang(zh-CN) .gallery-description,:lang(zh-CN) .intro-copy{line-height:1.9;overflow-wrap:anywhere}
 @media(max-width:640px){header>.language-switch{right:14px;top:23px}.mobile-menu{margin-right:82px}.modal-tools{gap:1px}.modal-tools .language-switch{gap:2px;padding:0 2px}.modal-tools .language-switch button{padding:0 3px;min-width:27px}.modal-toolbar{gap:8px}.chapter-picker{width:100%}.chapter-select{min-width:0}:lang(zh-CN) .hero h1{font-size:clamp(40px,10.5vw,60px)}:lang(zh-CN) .chapter h2{font-size:42px}:lang(zh-CN) .brand{font-size:30px}.footer-top .brand span{max-width:260px;line-height:1.6}}
+
+/* Editorial title pairings: selected language leads; the companion stays quiet. */
+.hero-title-secondary{font-family:'Cormorant Garamond',Georgia,serif;font-size:22px;letter-spacing:.8px;line-height:1.35;opacity:.8}
+.chapter-nav>a{display:grid;grid-template-columns:24px minmax(0,1fr);column-gap:9px;row-gap:0;align-content:start;align-items:baseline;padding-right:18px}
+.chapter-nav>a>.directory-number{font-family:'Cormorant Garamond',Georgia,serif;font-size:14px;letter-spacing:0;color:#7b826b}
+.chapter-nav>a>.directory-titles{min-width:0;letter-spacing:0;color:inherit}
+.chapter-nav .directory-titles strong{display:block;font-size:23px;line-height:1.2;overflow-wrap:normal}
+.chapter-nav .directory-titles strong:lang(zh-CN){font-family:'Songti SC','Noto Serif CJK SC','SimSun',serif;font-size:21px;line-height:1.4}
+.chapter-nav .directory-titles small{display:block;margin-top:10px;font-family:'Cormorant Garamond',Georgia,serif;font-size:15px;line-height:1.4;letter-spacing:.2px;color:#7c826e}
+.chapter-nav .directory-titles small:lang(zh-CN){font-family:'Songti SC','Noto Serif CJK SC','SimSun',serif;font-size:12px;line-height:1.6;letter-spacing:.5px}
+.chapter-nav svg{position:static;grid-column:2;margin-top:16px}
+.act-title-secondary:lang(en){font-family:'Cormorant Garamond',Georgia,serif;font-size:22px;letter-spacing:.4px;line-height:1.4}
+@media(max-width:900px){.chapter-nav .directory-titles strong{font-size:21px}.chapter-nav .directory-titles strong:lang(zh-CN){font-size:19px}}
+@media(max-width:640px){.hero-title-secondary{font-size:17px;letter-spacing:.4px}.chapter-nav>a{flex-basis:190px;grid-template-columns:24px minmax(0,1fr);padding-right:18px}.chapter-nav .directory-titles small{font-size:14px}.act-title-secondary:lang(en){font-size:19px}}
