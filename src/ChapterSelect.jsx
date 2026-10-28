@@ -1,8 +1,10 @@
 import React,{useEffect,useId,useRef,useState} from 'react';
+import {useLocale} from './i18n.jsx';
 import {ChevronDown} from 'lucide-react';
 
 // Keep focus on the combobox while its active option is announced.
 export default function ChapterSelect({chapter,chapters,onJump}) {
+  const {t}=useLocale();
   const [open,setOpen]=useState(false),[active,setActive]=useState(0);
   const root=useRef(null),trigger=useRef(null),id=useId();
   const selected=chapters.findIndex(c=>c.id===chapter.id);
@@ -27,12 +29,12 @@ export default function ChapterSelect({chapter,chapters,onJump}) {
   };
   const label=c=><><span className="chapter-number">{c.number}</span><span className="chapter-name">{c.title}</span></>;
   return <div className="chapter-select" ref={root} onBlur={e=>{if(!e.currentTarget.contains(e.relatedTarget))setOpen(false);}}>
-    <span id={`${id}-label`}>JUMP TO ACT</span>
+    <span id={`${id}-label`}>{t('jumpAct')}</span>
     <div className="chapter-picker">
-      <button ref={trigger} className="chapter-trigger" role="combobox" aria-label="Jump to act" aria-expanded={open} aria-haspopup="listbox" aria-controls={`${id}-options`} aria-activedescendant={open?`${id}-${active}`:undefined} onKeyDown={keyDown} onClick={()=>open?setOpen(false):show()}>
+      <button ref={trigger} className="chapter-trigger" role="combobox" aria-label={t('jumpAct')} aria-expanded={open} aria-haspopup="listbox" aria-controls={`${id}-options`} aria-activedescendant={open?`${id}-${active}`:undefined} onKeyDown={keyDown} onClick={()=>open?setOpen(false):show()}>
         {label(chapter)}<ChevronDown size={13} aria-hidden="true"/>
       </button>
-      {open&&<div id={`${id}-options`} className="chapter-options" role="listbox" aria-label="Chapters">{chapters.map((c,i)=><div id={`${id}-${i}`} key={c.id} role="option" aria-selected={c.id===chapter.id} className={'chapter-option'+(active===i?' is-active':'')} onPointerMove={()=>setActive(i)} onMouseDown={e=>e.preventDefault()} onClick={()=>choose(i)}>{label(c)}</div>)}</div>}
+      {open&&<div id={`${id}-options`} className="chapter-options" role="listbox" aria-label={t('chapters')}>{chapters.map((c,i)=><div id={`${id}-${i}`} key={c.id} role="option" aria-selected={c.id===chapter.id} className={'chapter-option'+(active===i?' is-active':'')} onPointerMove={()=>setActive(i)} onMouseDown={e=>e.preventDefault()} onClick={()=>choose(i)}>{label(c)}</div>)}</div>}
     </div>
   </div>;
 }

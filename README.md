@@ -34,6 +34,17 @@ Enter Exhibition begins at Almond Blossom. Previous/Next moves through all five 
 
 The site uses one page with section anchors (`/#entrance`, `/#act-1` through `/#act-5`, `/#conclusion`). These links support direct navigation and refresh. Artwork modals are intentionally transient: refreshing returns to the underlying exhibition page. There are no individual artwork routes.
 
+## Chinese and English
+
+First-time visitors see Simplified Chinese (`zh-CN`), regardless of browser language. The **中文 | EN** control remains available on the page and inside artwork and credits dialogs. Choices are stored locally under `exhibition-language`; blocked storage does not prevent switching during the current visit. Initial language is read before rendering, with a small head script to set the document language and title before first paint.
+
+- `src/locales/zh-CN.json` and `src/locales/en.json` contain matching keys for interface copy, metadata, all 20 artwork descriptions and all five acts.
+- Original IDs, image paths, dates, source links and the music database remain in their existing files. Translation records cannot replace these fields.
+- The previously retained Chinese chapter copy was reviewed; Acts II–IV use the curator's newly approved titles: 艺术在燃烧、天空没有极限、心的距离.
+- Song titles, artist names and URLs are never translated. All current curator notes are empty. When adding notes, add both language versions under `curatorNotes` using the artwork ID; the original note remains a fallback.
+- Institution names are translated where clear; some official names are retained to avoid ambiguity. No translation API or new dependency is used.
+- `npm test` checks dictionary parity, coverage, default-language behavior and preservation of English artwork facts.
+
 ## Edit your curation
 
 - `src/artworks.json`: artwork facts, image paths, attribution and source links.

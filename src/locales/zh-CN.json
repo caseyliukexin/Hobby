@@ -1,0 +1,285 @@
+{
+  "ui": {
+    "title": "用两种感官感知世界",
+    "titleFirst": "用两种感官",
+    "titleSecond": "感知世界",
+    "subtitle": "以音乐重新感知文森特·梵高",
+    "statementFirst": "文森特画下他所见的世界，",
+    "statementSecond": "我聆听他所感的生命。",
+    "vincent": "文森特",
+    "painter": "文森特·梵高",
+    "artMusic": "艺术 × 音乐",
+    "skip": "跳至全部画作",
+    "entrance": "展览入口",
+    "allArtworks": "全部画作",
+    "fiveActs": "五幕展览",
+    "aboutNav": "关于展览",
+    "stepInside": "步入展览",
+    "toggleNav": "展开或收起导航",
+    "mainNav": "主导航",
+    "mobileNav": "移动端导航",
+    "enter": "进入展览",
+    "exploreAll": "探索全部画作",
+    "paintingsCount": "20 幅画作",
+    "actsSenses": "五幕展览 · 两种感官",
+    "scrollLabel": "向下滚动，探索展览",
+    "scroll": "向下探索",
+    "concept": "一幅画。一首歌。一种私人的解读。",
+    "complete": "完整展览 · 20 幅作品",
+    "introFirst": "五幕展览，",
+    "introSecond": "一个徐徐展开的世界。",
+    "dialogueFirst": "文森特的画作，",
+    "dialogueSecond": "与一位聆听者所选音乐的对话。",
+    "dimensions": "开始。燃烧。惊叹。内省。生长。",
+    "journey": "循着展览前行，或寻找属于自己的路径。",
+    "beginAlmond": "从《盛开的杏花》开始",
+    "act": "幕",
+    "actLabel": "第 {number} 幕",
+    "chooseAct": "选择一幕",
+    "nextAct": "下一幕 · {number}",
+    "continue": "继续",
+    "endingLabel": "开放的结尾",
+    "endingFirst": "万物仍在",
+    "endingSecond": "生长",
+    "endingQuote": "画作止于画框，世界却仍在延伸。",
+    "returnBeginning": "回到起点",
+    "aboutFirst": "一幅画。",
+    "aboutSecond": "一首歌。",
+    "aboutThird": "一种私人的解读。",
+    "aboutDescription": "本展览让文森特·梵高的画作与策展人亲自选择的当代音乐展开对话。",
+    "aboutStructure": "五幕展览从情感与哲思出发，探寻人的生命体验，而非依照时间讲述艺术家的生平。",
+    "returnArtworks": "返回画作",
+    "independent": "一个独立的艺术与音乐展览。",
+    "conceptSentence": "一幅画。一首歌。一种私人的解读。",
+    "backTop": "返回顶部",
+    "footerCredit": "所有画作均出自文森特·梵高。画作为公有领域作品；图像来源与使用说明随各作品列出。",
+    "creditsSources": "图像署名与来源",
+    "credits": "图像署名",
+    "closeCredits": "关闭图像署名",
+    "collectionLabel": "展出作品",
+    "creditsDescription": "所有画作均出自文森特·梵高。作品描述是对画面的概述，与策展人的个人笔记分开呈现。创作年份与馆藏信息依据所链接的来源。",
+    "museumRecord": "馆藏记录",
+    "viewArtwork": "查看《{title}》",
+    "imageAlt": "文森特·梵高《{title}》",
+    "exploreArtwork": "探索画作",
+    "jumpAct": "跳转至一幕",
+    "chapters": "展览章节",
+    "closeArtwork": "关闭画作",
+    "exhibitionNav": "展览导航",
+    "zoomIn": "放大",
+    "zoomOut": "缩小",
+    "originalSource": "查看原始来源",
+    "previous": "上一幅",
+    "next": "下一幅",
+    "previousArtwork": "上一幅画作",
+    "nextArtwork": "下一幅画作",
+    "musicCuration": "音乐策展",
+    "soundtrack": "这幅画的声音",
+    "listenOn": "在{platform}收听",
+    "newTab": "在新标签页打开",
+    "curatorNote": "策展人笔记",
+    "language": "展览语言",
+    "switchZh": "切换至简体中文",
+    "switchEn": "切换至英语",
+    "description": "文森特·梵高的二十幅画作，五幕细腻的情感旅程，以及策展人亲选的音乐。一幅画。一首歌。一种私人的解读。",
+    "shareImageAlt": "《盛开的杏花》，文森特·梵高，1890 年。阿姆斯特丹梵高博物馆藏。公有领域复制图像。",
+    "chapterPeriod": "。"
+  },
+  "artworks": {
+    "almond": {
+      "title": "盛开的杏花",
+      "description": "白色花朵舒展在清澈的绿松石色天空下。深色枝条勾勒出分明的轮廓，让每一朵柔弱的花都拥有安静的存在感。",
+      "collection": "阿姆斯特丹梵高博物馆",
+      "credit": "文森特·梵高 · 阿姆斯特丹梵高博物馆 · 维基共享资源",
+      "license": "公有领域"
+    },
+    "irises": {
+      "title": "鸢尾花",
+      "description": "紫色鸢尾从交错的尖长绿叶间挺立而出。一朵浅色的花，打破了这片繁密花园的节奏。",
+      "collection": "洛杉矶 J. Paul Getty Museum",
+      "credit": "文森特·梵高 · 洛杉矶 J. Paul Getty Museum · 维基共享资源",
+      "license": "公有领域"
+    },
+    "wheatfield": {
+      "title": "麦田与柏树",
+      "description": "金色麦穗在翻涌的云层下低垂。深色柏树挺立其间，与麦田和天空中不安的曲线相映。",
+      "collection": "伦敦国家美术馆",
+      "credit": "文森特·梵高 · 伦敦国家美术馆 · 维基共享资源",
+      "license": "公有领域"
+    },
+    "sunflowers": {
+      "title": "向日葵",
+      "description": "赭色、琥珀色与金色盛放在朴素的花瓶中。处于不同生命阶段的花朵，让熟悉的静物成为一场关于明亮黄色的探索。",
+      "collection": "伦敦国家美术馆",
+      "credit": "文森特·梵高 · 伦敦国家美术馆 · 维基共享资源",
+      "license": "公有领域"
+    },
+    "bedroom": {
+      "title": "卧室",
+      "description": "蓝色墙壁与温暖的木制家具、红色毯子相接。倾斜的线条将这个私密的房间拉近到观者眼前。",
+      "collection": "阿姆斯特丹梵高博物馆",
+      "credit": "文森特·梵高 · 阿姆斯特丹梵高博物馆 · 维基共享资源",
+      "license": "公有领域"
+    },
+    "yellow-house": {
+      "title": "黄房子",
+      "description": "阳光下的黄色建筑矗立在浓郁的蓝天下。街上的小小人影与远处的火车，为街景带来动感。",
+      "collection": "阿姆斯特丹梵高博物馆",
+      "credit": "文森特·梵高 · 阿姆斯特丹梵高博物馆 · 维基共享资源",
+      "license": "公有领域"
+    },
+    "starry-night": {
+      "title": "星月夜",
+      "description": "星光在流转的蓝色曲线间闪耀。一株深色柏树高高耸起，下方的小村庄静静安睡。",
+      "collection": "纽约现代艺术博物馆",
+      "credit": "文森特·梵高 · 纽约现代艺术博物馆 · 维基共享资源",
+      "license": "公有领域"
+    },
+    "rhone": {
+      "title": "罗讷河上的星夜",
+      "description": "金色灯光铺展在深蓝色水面上。星空之下，两个人影并肩站在河岸边。",
+      "collection": "巴黎奥赛博物馆（Musée d’Orsay）",
+      "credit": "文森特·梵高 · 巴黎奥赛博物馆（Musée d’Orsay） · 维基共享资源",
+      "license": "公有领域"
+    },
+    "cafe": {
+      "title": "夜间的露天咖啡座",
+      "description": "明亮的黄色咖啡座将灯光洒向石板街道。深蓝色建筑围出一角缀满星辰的天空。",
+      "collection": "奥特洛克勒勒-米勒博物馆（Kröller-Müller Museum）",
+      "credit": "文森特·梵高 · 奥特洛克勒勒-米勒博物馆（Kröller-Müller Museum） · 维基共享资源",
+      "license": "公有领域"
+    },
+    "courting-couples": {
+      "title": "花园中的恋人：圣皮埃尔广场",
+      "description": "小小的人影在幼树下漫步、休憩。绿色与黄色的短笔触铺满花园和蜿蜒的小径。",
+      "collection": "阿姆斯特丹梵高博物馆",
+      "credit": "文森特·梵高 · 阿姆斯特丹梵高博物馆（文森特·梵高基金会） · 维基共享资源",
+      "license": "公有领域"
+    },
+    "first-steps": {
+      "title": "第一步（临摹米勒）",
+      "description": "一个孩子隔着花园小径，伸手走向跪地迎接他的人。浅绿的草木、蓝色衣衫与开花的树，环抱着这个家庭。",
+      "collection": "纽约大都会艺术博物馆",
+      "credit": "文森特·梵高 · 纽约大都会艺术博物馆 · 维基共享资源",
+      "license": "公有领域"
+    },
+    "sower": {
+      "title": "播种者",
+      "description": "一轮硕大的黄色太阳升起在蓝紫色田野上。一个身影将种子撒向由厚重笔触描绘的土地。",
+      "collection": "奥特洛克勒勒-米勒博物馆（Kröller-Müller Museum）",
+      "credit": "文森特·梵高 · 奥特洛克勒勒-米勒博物馆（Kröller-Müller Museum） · 维基共享资源",
+      "license": "公有领域"
+    },
+    "red-vineyard": {
+      "title": "红色葡萄园",
+      "description": "黄色天空下，劳作者俯身于红色与橙色的葡萄藤间。明亮的太阳与映光的水面，勾勒出田野远处的边缘。",
+      "collection": "莫斯科普希金造型艺术博物馆",
+      "credit": "文森特·梵高 · 莫斯科普希金造型艺术博物馆 · 维基共享资源",
+      "license": "公有领域"
+    },
+    "mulberry-tree": {
+      "title": "桑树",
+      "description": "金色树叶从深色、扭转的树干向外舒展。弯曲的笔触穿过蓝天，也掠过树旁浅色的土地。",
+      "collection": "帕萨迪纳 Norton Simon Museum",
+      "credit": "文森特·梵高 · 帕萨迪纳 Norton Simon Museum · 维基共享资源",
+      "license": "公有领域"
+    },
+    "sea-saintes-maries": {
+      "title": "圣马利海景",
+      "description": "前景中，蓝绿色波浪碎成白色浪尖。浅淡多云的天空下，小小帆影横越水面。",
+      "collection": "阿姆斯特丹梵高博物馆",
+      "credit": "文森特·梵高 · 阿姆斯特丹梵高博物馆（文森特·梵高基金会） · 维基共享资源",
+      "license": "公有领域"
+    },
+    "cypress-star": {
+      "title": "柏树与星空下的道路",
+      "description": "高高的柏树将星辰与新月照亮的天空分开。两个人影与一辆马车，行进在浅色的蜿蜒道路上。",
+      "collection": "奥特洛克勒勒-米勒博物馆（Kröller-Müller Museum）",
+      "credit": "文森特·梵高 · 奥特洛克勒勒-米勒博物馆（Kröller-Müller Museum） · 维基共享资源",
+      "license": "公有领域"
+    },
+    "self-portrait": {
+      "title": "自画像",
+      "description": "红色胡须与专注的目光，映衬着旋动的蓝绿色笔触。冷色调从背景延续至衣衫。",
+      "collection": "巴黎奥赛博物馆（Musée d’Orsay）",
+      "credit": "文森特·梵高 · 巴黎奥赛博物馆（Musée d’Orsay） · 维基共享资源",
+      "license": "公有领域"
+    },
+    "olive-trees": {
+      "title": "黄天与太阳下的橄榄树",
+      "description": "盘曲的橄榄树干从橙色与紫色的土地中生长出来。黄色太阳照耀着树林与一线蓝色山峦。",
+      "collection": "明尼阿波利斯艺术博物馆",
+      "credit": "文森特·梵高 · 明尼阿波利斯艺术博物馆 · 维基共享资源",
+      "license": "公有领域"
+    },
+    "thunderclouds": {
+      "title": "雷云下的麦田",
+      "description": "广阔的绿色麦田延伸至深蓝色云层之下。宽阔的横向色带，将风景推向地平线。",
+      "collection": "阿姆斯特丹梵高博物馆",
+      "credit": "文森特·梵高 · 阿姆斯特丹梵高博物馆（文森特·梵高基金会） · 维基共享资源",
+      "license": "公有领域"
+    },
+    "tree-roots": {
+      "title": "树根",
+      "description": "交错的树根与树干铺满画面。蓝色、绿色和赭色的色块，描画着裸露的土地与缠绕的生长。",
+      "collection": "阿姆斯特丹梵高博物馆",
+      "credit": "文森特·梵高 · 阿姆斯特丹梵高博物馆（文森特·梵高基金会） · 维基共享资源",
+      "license": "公有领域"
+    }
+  },
+  "chapters": {
+    "act-1": {
+      "title": "开始的勇气",
+      "dimension": "开始",
+      "introduction": "春天、相遇、希望与爱。每一个开始，都可以是一种安静的勇敢。"
+    },
+    "act-2": {
+      "title": "艺术在燃烧",
+      "dimension": "燃烧",
+      "introduction": "创造与劳作，热情与盛夏。生命的炽烈，被凝聚在色彩之中。"
+    },
+    "act-3": {
+      "title": "天空没有极限",
+      "dimension": "惊叹",
+      "introduction": "大海、夜色与星辰。邀请我们望向熟悉世界之外，走近自由与存在的辽阔。"
+    },
+    "act-4": {
+      "title": "心的距离",
+      "dimension": "内省",
+      "introduction": "私密空间、人与人的关系，以及对自我的感知。靠近亲密，也凝视被看见时的脆弱。"
+    },
+    "act-5": {
+      "title": "万物仍在生长",
+      "dimension": "生长",
+      "introduction": "自然、未知与韧性。生命在变化中延续，没有最终的形状，也没有固定的终点。"
+    }
+  },
+  "curatorNotes": {
+    "almond": "",
+    "irises": "",
+    "wheatfield": "",
+    "sunflowers": "",
+    "bedroom": "",
+    "yellow-house": "",
+    "starry-night": "",
+    "rhone": "",
+    "cafe": "",
+    "courting-couples": "",
+    "first-steps": "",
+    "sower": "",
+    "red-vineyard": "",
+    "mulberry-tree": "",
+    "sea-saintes-maries": "",
+    "cypress-star": "",
+    "self-portrait": "",
+    "olive-trees": "",
+    "thunderclouds": "",
+    "tree-roots": ""
+  },
+  "platforms": {
+    "NetEase Cloud Music": "网易云音乐",
+    "Spotify": "Spotify",
+    "YouTube": "YouTube",
+    "Apple Music": "Apple Music"
+  }
+}

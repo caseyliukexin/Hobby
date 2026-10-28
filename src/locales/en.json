@@ -1,0 +1,285 @@
+{
+  "ui": {
+    "title": "A World Through Two Senses",
+    "titleFirst": "A World Through",
+    "titleSecond": "Two Senses",
+    "subtitle": "VINCENT VAN GOGH, REIMAGINED THROUGH MUSIC",
+    "statementFirst": "Vincent painted what he saw.",
+    "statementSecond": "I listen to what he felt.",
+    "vincent": "Vincent",
+    "painter": "Vincent van Gogh",
+    "artMusic": "ART × MUSIC",
+    "skip": "Skip to artworks",
+    "entrance": "Exhibition Entrance",
+    "allArtworks": "All Artworks",
+    "fiveActs": "The five acts",
+    "aboutNav": "The exhibition",
+    "stepInside": "Step inside",
+    "toggleNav": "Toggle navigation",
+    "mainNav": "Main navigation",
+    "mobileNav": "Mobile navigation",
+    "enter": "Enter Exhibition",
+    "exploreAll": "Explore All Artworks",
+    "paintingsCount": "20 PAINTINGS",
+    "actsSenses": "FIVE ACTS · TWO SENSES",
+    "scrollLabel": "Scroll to explore",
+    "scroll": "SCROLL TO DISCOVER",
+    "concept": "ONE PAINTING. ONE SONG. ONE PERSONAL INTERPRETATION.",
+    "complete": "THE COMPLETE EXHIBITION · 20 WORKS",
+    "introFirst": "Five acts.",
+    "introSecond": "One unfolding world.",
+    "dialogueFirst": "A dialogue between Vincent’s paintings",
+    "dialogueSecond": "and music chosen by one listener.",
+    "dimensions": "Beginning. Burning. Wonder. Introspection. Becoming.",
+    "journey": "Follow the journey, or find your own way through.",
+    "beginAlmond": "Begin with Almond Blossom",
+    "act": "Act",
+    "actLabel": "ACT {number}",
+    "chooseAct": "Choose an act",
+    "nextAct": "Next · Act {number}",
+    "continue": "Continue",
+    "endingLabel": "AN OPEN ENDING",
+    "endingFirst": "Everything Is",
+    "endingSecond": "Still Becoming",
+    "endingQuote": "The world does not end where a painting ends.",
+    "returnBeginning": "Return to the Beginning",
+    "aboutFirst": "A painting.",
+    "aboutSecond": "A song.",
+    "aboutThird": "A personal interpretation.",
+    "aboutDescription": "This exhibition creates a dialogue between Vincent van Gogh’s paintings and contemporary music personally selected by the curator.",
+    "aboutStructure": "The five acts explore emotional and philosophical dimensions of human experience, rather than a chronological biography.",
+    "returnArtworks": "Return to the artworks",
+    "independent": "An independent art & music exhibition.",
+    "conceptSentence": "One painting. One song. One personal interpretation.",
+    "backTop": "Back to top",
+    "footerCredit": "All artworks by Vincent van Gogh. Public-domain artworks; image sources and reuse details accompany each work.",
+    "creditsSources": "Image credits & sources",
+    "credits": "Image credits",
+    "closeCredits": "Close credits",
+    "collectionLabel": "THE COLLECTION",
+    "creditsDescription": "All paintings are by Vincent van Gogh. Artwork descriptions are visual summaries, separate from the curator’s personal notes. Dates and collection information are drawn from the linked sources.",
+    "museumRecord": "Museum record",
+    "viewArtwork": "View {title}",
+    "imageAlt": "{title} by Vincent van Gogh",
+    "exploreArtwork": "Explore artwork",
+    "jumpAct": "Jump to act",
+    "chapters": "Chapters",
+    "closeArtwork": "Close artwork",
+    "exhibitionNav": "Exhibition navigation",
+    "zoomIn": "Zoom in",
+    "zoomOut": "Zoom out",
+    "originalSource": "View original source",
+    "previous": "Previous",
+    "next": "Next",
+    "previousArtwork": "Previous artwork",
+    "nextArtwork": "Next artwork",
+    "musicCuration": "Music curation",
+    "soundtrack": "A PERSONAL SOUNDTRACK",
+    "listenOn": "Listen on {platform}",
+    "newTab": "Opens in a new tab",
+    "curatorNote": "CURATOR’S NOTE",
+    "language": "Exhibition language",
+    "switchZh": "Switch to Simplified Chinese",
+    "switchEn": "Switch to English",
+    "description": "Twenty paintings by Vincent van Gogh, five intimate acts, and a personally curated soundtrack. One painting. One song. One personal interpretation.",
+    "shareImageAlt": "Almond Blossom, Vincent van Gogh, 1890. Van Gogh Museum, Amsterdam. Public-domain reproduction.",
+    "chapterPeriod": "."
+  },
+  "artworks": {
+    "almond": {
+      "title": "Almond Blossom",
+      "description": "White blossoms reach across a clear turquoise sky. Dark, branching contours give each delicate flower a quiet presence.",
+      "collection": "Van Gogh Museum, Amsterdam",
+      "credit": "Vincent van Gogh · Van Gogh Museum, Amsterdam · Wikimedia Commons",
+      "license": "Public domain"
+    },
+    "irises": {
+      "title": "Irises",
+      "description": "Violet irises rise from a tangle of pointed green leaves. A single pale flower interrupts the rhythm of the crowded garden.",
+      "collection": "J. Paul Getty Museum, Los Angeles",
+      "credit": "Vincent van Gogh · J. Paul Getty Museum, Los Angeles · Wikimedia Commons",
+      "license": "Public domain"
+    },
+    "wheatfield": {
+      "title": "A Wheatfield, with Cypresses",
+      "description": "Golden wheat bends beneath rolling clouds. Dark cypresses stand against the restless curves of the field and sky.",
+      "collection": "The National Gallery, London",
+      "credit": "Vincent van Gogh · The National Gallery, London · Wikimedia Commons",
+      "license": "Public domain"
+    },
+    "sunflowers": {
+      "title": "Sunflowers",
+      "description": "Ochre, amber and gold fill a simple vase. Flowers at different stages of life turn a familiar still life into a study of luminous yellow.",
+      "collection": "The National Gallery, London",
+      "credit": "Vincent van Gogh · The National Gallery, London · Wikimedia Commons",
+      "license": "Public domain"
+    },
+    "bedroom": {
+      "title": "The Bedroom",
+      "description": "Blue walls meet warm wooden furniture and a red blanket. Tilted lines bring an intimate room close to the viewer.",
+      "collection": "Van Gogh Museum, Amsterdam",
+      "credit": "Vincent van Gogh · Van Gogh Museum, Amsterdam · Wikimedia Commons",
+      "license": "Public domain"
+    },
+    "yellow-house": {
+      "title": "The Yellow House",
+      "description": "Sunlit yellow buildings stand beneath a saturated blue sky. Small figures and a distant train bring movement to the street.",
+      "collection": "Van Gogh Museum, Amsterdam",
+      "credit": "Vincent van Gogh · Van Gogh Museum, Amsterdam · Wikimedia Commons",
+      "license": "Public domain"
+    },
+    "starry-night": {
+      "title": "The Starry Night",
+      "description": "Stars radiate through a sky of sweeping blue curves. A dark cypress rises above the small, still village below.",
+      "collection": "The Museum of Modern Art, New York",
+      "credit": "Vincent van Gogh · The Museum of Modern Art, New York · Wikimedia Commons",
+      "license": "Public domain"
+    },
+    "rhone": {
+      "title": "Starry Night over the Rhône",
+      "description": "Golden lights stretch across deep blue water. Beneath the stars, two figures stand together at the river’s edge.",
+      "collection": "Musée d’Orsay, Paris",
+      "credit": "Vincent van Gogh · Musée d’Orsay, Paris · Wikimedia Commons",
+      "license": "Public domain"
+    },
+    "cafe": {
+      "title": "Café Terrace at Night",
+      "description": "A brilliant yellow café spills light onto the cobbled street. Deep blue buildings frame a small opening of star-filled sky.",
+      "collection": "Kröller-Müller Museum, Otterlo",
+      "credit": "Vincent van Gogh · Kröller-Müller Museum, Otterlo · Wikimedia Commons",
+      "license": "Public domain"
+    },
+    "courting-couples": {
+      "title": "Garden with Courting Couples: Square Saint-Pierre",
+      "description": "Small figures walk and sit beneath young trees. Short strokes of green and yellow cover the garden and its curving paths.",
+      "collection": "Van Gogh Museum, Amsterdam",
+      "credit": "Vincent van Gogh · Van Gogh Museum, Amsterdam (Vincent van Gogh Foundation) · Wikimedia Commons",
+      "license": "Public domain"
+    },
+    "first-steps": {
+      "title": "First Steps, after Millet",
+      "description": "A child stretches toward a kneeling figure across a garden path. Pale greens, blue clothing and flowering trees frame the family.",
+      "collection": "The Metropolitan Museum of Art, New York",
+      "credit": "Vincent van Gogh · The Metropolitan Museum of Art, New York · Wikimedia Commons",
+      "license": "Public domain"
+    },
+    "sower": {
+      "title": "The Sower",
+      "description": "A large yellow sun rises above a blue-violet field. A figure scatters seed across the thickly painted earth.",
+      "collection": "Kröller-Müller Museum, Otterlo",
+      "credit": "Vincent van Gogh · Kröller-Müller Museum, Otterlo · Wikimedia Commons",
+      "license": "Public domain"
+    },
+    "red-vineyard": {
+      "title": "The Red Vineyard",
+      "description": "Workers bend among red and orange vines beneath a yellow sky. A bright sun and reflective water mark the distant edge of the field.",
+      "collection": "The Pushkin State Museum of Fine Arts, Moscow",
+      "credit": "Vincent van Gogh · The Pushkin State Museum of Fine Arts, Moscow · Wikimedia Commons",
+      "license": "Public domain"
+    },
+    "mulberry-tree": {
+      "title": "The Mulberry Tree",
+      "description": "Golden leaves spread from a dark, twisting trunk. Curving brushstrokes cross the blue sky and pale ground around the tree.",
+      "collection": "Norton Simon Museum, Pasadena",
+      "credit": "Vincent van Gogh · Norton Simon Museum, Pasadena · Wikimedia Commons",
+      "license": "Public domain"
+    },
+    "sea-saintes-maries": {
+      "title": "The Sea at Les Saintes-Maries-de-la-Mer",
+      "description": "Green and blue waves break into white crests in the foreground. Small sails cross the water beneath a pale, clouded sky.",
+      "collection": "Van Gogh Museum, Amsterdam",
+      "credit": "Vincent van Gogh · Van Gogh Museum, Amsterdam (Vincent van Gogh Foundation) · Wikimedia Commons",
+      "license": "Public domain"
+    },
+    "cypress-star": {
+      "title": "Road with Cypress and Star",
+      "description": "A tall cypress divides a sky lit by a star and crescent moon. Two figures and a carriage travel along the pale winding road.",
+      "collection": "Kröller-Müller Museum, Otterlo",
+      "credit": "Vincent van Gogh · Kröller-Müller Museum, Otterlo · Wikimedia Commons",
+      "license": "Public domain"
+    },
+    "self-portrait": {
+      "title": "Self-Portrait",
+      "description": "A red beard and attentive gaze stand against swirling blue-green strokes. The cool tones continue through the jacket and background.",
+      "collection": "Musée d’Orsay, Paris",
+      "credit": "Vincent van Gogh · Musée d’Orsay, Paris · Wikimedia Commons",
+      "license": "Public domain"
+    },
+    "olive-trees": {
+      "title": "Olive Trees with Yellow Sky and Sun",
+      "description": "Gnarled olive trunks rise from orange and violet earth. A yellow sun shines above the grove and a line of blue mountains.",
+      "collection": "Minneapolis Institute of Art, Minneapolis",
+      "credit": "Vincent van Gogh · Minneapolis Institute of Art, Minneapolis · Wikimedia Commons",
+      "license": "Public domain"
+    },
+    "thunderclouds": {
+      "title": "Wheatfield under Thunderclouds",
+      "description": "An expansive green wheatfield stretches beneath deep blue clouds. Broad horizontal bands carry the landscape toward the horizon.",
+      "collection": "Van Gogh Museum, Amsterdam",
+      "credit": "Vincent van Gogh · Van Gogh Museum, Amsterdam (Vincent van Gogh Foundation) · Wikimedia Commons",
+      "license": "Public domain"
+    },
+    "tree-roots": {
+      "title": "Tree Roots",
+      "description": "Interlaced roots and tree trunks fill the canvas. Patches of blue, green and ochre trace the exposed earth and tangled growth.",
+      "collection": "Van Gogh Museum, Amsterdam",
+      "credit": "Vincent van Gogh · Van Gogh Museum, Amsterdam (Vincent van Gogh Foundation) · Wikimedia Commons",
+      "license": "Public domain"
+    }
+  },
+  "chapters": {
+    "act-1": {
+      "title": "The Courage to Begin",
+      "dimension": "Beginning",
+      "introduction": "Spring, encounters, hope, and love. A beginning can be a quiet act of courage."
+    },
+    "act-2": {
+      "title": "The Beautiful Art of Burning",
+      "dimension": "Burning",
+      "introduction": "Creativity and labour, passion and summer. The intensity of being alive, held in colour."
+    },
+    "act-3": {
+      "title": "A Sky Without Borders",
+      "dimension": "Wonder",
+      "introduction": "Sea, night, and stars. An invitation to look beyond the familiar, towards freedom and the vastness of existence."
+    },
+    "act-4": {
+      "title": "The Rooms Within Us",
+      "dimension": "Introspection",
+      "introduction": "Private spaces, relationships, and self-perception. A closer look at intimacy and the vulnerability of being seen."
+    },
+    "act-5": {
+      "title": "Everything Is Still Becoming",
+      "dimension": "Becoming",
+      "introduction": "Nature, uncertainty, and resilience. Life continues through change, with no final shape and no fixed ending."
+    }
+  },
+  "curatorNotes": {
+    "almond": "",
+    "irises": "",
+    "wheatfield": "",
+    "sunflowers": "",
+    "bedroom": "",
+    "yellow-house": "",
+    "starry-night": "",
+    "rhone": "",
+    "cafe": "",
+    "courting-couples": "",
+    "first-steps": "",
+    "sower": "",
+    "red-vineyard": "",
+    "mulberry-tree": "",
+    "sea-saintes-maries": "",
+    "cypress-star": "",
+    "self-portrait": "",
+    "olive-trees": "",
+    "thunderclouds": "",
+    "tree-roots": ""
+  },
+  "platforms": {
+    "NetEase Cloud Music": "NetEase Cloud Music",
+    "Spotify": "Spotify",
+    "YouTube": "YouTube",
+    "Apple Music": "Apple Music"
+  }
+}

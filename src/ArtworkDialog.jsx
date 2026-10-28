@@ -1,8 +1,11 @@
 import React,{useEffect,useRef,useState} from 'react';
 import {X,Plus,Minus,ChevronLeft,ChevronRight,ArrowUpRight,ArrowRight} from 'lucide-react';
+import {useLocale} from './i18n.jsx';
+import LanguageSwitcher from './LanguageSwitcher.jsx';
 import ArtworkMusic from './ArtworkMusic.jsx';
 import ChapterSelect from './ChapterSelect.jsx';
 export default function ArtworkDialog({artwork,chapter,chapters,position,total,onClose,onMove,onJump,onNavigate,onFinish}) {
+  const {t}=useLocale();
   const dialog=useRef(null),imagePane=useRef(null),[zoom,setZoom]=useState(false);
   useEffect(()=>{
     const previousFocus=document.activeElement;
@@ -19,12 +22,12 @@ export default function ArtworkDialog({artwork,chapter,chapters,position,total,o
   };
   return <dialog ref={dialog} className="art-dialog" aria-labelledby="artwork-title" onCancel={onClose}
     onClick={e=>{if(e.target===dialog.current)onClose();}} onKeyDown={handleKey}>
-    <div className="modal-toolbar"><ChapterSelect chapter={chapter} chapters={chapters} onJump={onJump}/><button className="icon-button" onClick={onClose} aria-label="Close artwork"><X/></button></div>
-    <nav className="modal-return" aria-label="Exhibition navigation"><a href="#exhibition" onClick={()=>onNavigate('exhibition')}>All Artworks</a><a href="#entrance" onClick={()=>onNavigate('entrance')}>Exhibition Entrance</a><span>ACT {chapter.number} · <span>{chapter.dimension}</span></span></nav>
-    <div className="modal-layout"><div ref={imagePane} className={'modal-image '+(zoom?'zoomed':'')}><button className="zoom-image" onClick={()=>setZoom(!zoom)} aria-label={zoom?'Zoom out':'Zoom in'}><img src={artwork.image} alt={artwork.title}/></button><button className="zoom-control" onClick={()=>setZoom(!zoom)}>{zoom?<Minus size={16}/>:<Plus size={16}/>} {zoom?'Zoom out':'Zoom in'}</button></div>
-      <div className="modal-info"><p className="eyebrow">{artwork.year} · VINCENT VAN GOGH</p><h2 id="artwork-title" aria-live="polite">{artwork.title}</h2><p className="description">{artwork.description}</p><p className="collection">{artwork.collection}</p><p className="source-credit">{artwork.credit}<br/>{artwork.license}</p><a href={artwork.source} target="_blank" rel="noopener noreferrer" className="text-link">View original source <ArrowUpRight size={16}/></a>
+    <div className="modal-toolbar"><ChapterSelect chapter={chapter} chapters={chapters} onJump={onJump}/><div className="modal-tools"><LanguageSwitcher/><button className="icon-button" onClick={onClose} aria-label={t('closeArtwork')}><X/></button></div></div>
+    <nav className="modal-return" aria-label={t('exhibitionNav')}><a href="#exhibition" onClick={()=>onNavigate('exhibition')}>{t('allArtworks')}</a><a href="#entrance" onClick={()=>onNavigate('entrance')}>{t('entrance')}</a><span>{t('actLabel',{number:chapter.number})} · <span>{chapter.dimension}</span></span></nav>
+    <div className="modal-layout"><div ref={imagePane} className={'modal-image '+(zoom?'zoomed':'')}><button className="zoom-image" onClick={()=>setZoom(!zoom)} aria-label={zoom?t('zoomOut'):t('zoomIn')}><img src={artwork.image} alt={artwork.title}/></button><button className="zoom-control" onClick={()=>setZoom(!zoom)}>{zoom?<Minus size={16}/>:<Plus size={16}/>} {zoom?t('zoomOut'):t('zoomIn')}</button></div>
+      <div className="modal-info"><p className="eyebrow">{artwork.year} · {t('painter').toUpperCase()}</p><h2 id="artwork-title" aria-live="polite">{artwork.title}</h2><p className="description">{artwork.description}</p><p className="collection">{artwork.collection}</p><p className="source-credit">{artwork.credit}<br/>{artwork.license}</p><a href={artwork.source} target="_blank" rel="noopener noreferrer" className="text-link">{t('originalSource')}<ArrowUpRight size={16}/></a>
         <ArtworkMusic key={artwork.id} artworkId={artwork.id}/>
-        <div className="modal-pagination"><button disabled={position===0} onClick={()=>onMove(-1)} aria-label="Previous artwork"><ChevronLeft/> Previous</button><span>{String(position+1).padStart(2,'0')} / {total}</span>{position===total-1?<button onClick={onFinish}>Continue <ArrowRight size={16}/></button>:<button onClick={()=>onMove(1)} aria-label="Next artwork">Next <ChevronRight/></button>}</div>
+        <div className="modal-pagination"><button disabled={position===0} onClick={()=>onMove(-1)} aria-label={t('previousArtwork')}><ChevronLeft/> {t('previous')}</button><span>{String(position+1).padStart(2,'0')} / {total}</span>{position===total-1?<button onClick={onFinish}>{t('continue')}<ArrowRight size={16}/></button>:<button onClick={()=>onMove(1)} aria-label={t('nextArtwork')}>{t('next')} <ChevronRight/></button>}</div>
       </div>
     </div>
   </dialog>;
