@@ -3,13 +3,13 @@
     "title": "用两种感官感知世界",
     "titleFirst": "用两种感官",
     "titleSecond": "感知世界",
-    "subtitle": "以音乐重新感知文森特·梵高",
-    "statementFirst": "文森特画下他所见的世界，",
-    "statementSecond": "我聆听他所感的生命。",
-    "vincent": "文森特",
+    "subtitle": "听见梵高画作的密语",
+    "statementFirst": "梵高用画笔感知世界，",
+    "statementSecond": "我用心聆听他画中的世界。",
+    "vincent": "梵高",
     "painter": "文森特·梵高",
     "artMusic": "艺术 × 音乐",
-    "skip": "跳至全部画作",
+    "skip": "跳转全部画作",
     "entrance": "展览入口",
     "allArtworks": "全部画作",
     "fiveActs": "五幕展览",
@@ -28,9 +28,9 @@
     "complete": "完整展览 · 20 幅作品",
     "introFirst": "五幕展览，",
     "introSecond": "一个徐徐展开的世界。",
-    "dialogueFirst": "文森特的画作，",
+    "dialogueFirst": "梵高的画作，",
     "dialogueSecond": "与一位聆听者所选音乐的对话。",
-    "dimensions": "开始。燃烧。惊叹。内省。生长。",
+    "dimensions": "开始的勇气。艺术在燃烧。天空没有极限。心的距离。万物仍在生长。",
     "journey": "循着展览前行，或寻找属于自己的路径。",
     "beginAlmond": "从《盛开的杏花》开始",
     "act": "幕",
@@ -46,13 +46,13 @@
     "aboutFirst": "一幅画。",
     "aboutSecond": "一首歌。",
     "aboutThird": "一种私人的解读。",
-    "aboutDescription": "本展览让文森特·梵高的画作与策展人亲自选择的当代音乐展开对话。",
-    "aboutStructure": "五幕展览从情感与哲思出发，探寻人的生命体验，而非依照时间讲述艺术家的生平。",
+    "aboutDescription": "本展览中，文森特·梵高的画作与策展人亲自选择的当代音乐展开了一场对话。",
+    "aboutStructure": "五幕展览希望从情感与哲思出发，探寻人的生命体验，而没有仅仅按照线性顺序讲述艺术家的生平。",
     "returnArtworks": "返回画作",
     "independent": "一个独立的艺术与音乐展览。",
     "conceptSentence": "一幅画。一首歌。一种私人的解读。",
     "backTop": "返回顶部",
-    "footerCredit": "所有画作均出自文森特·梵高。画作为公有领域作品；图像来源与使用说明随各作品列出。",
+    "footerCredit": "所有画作均出自文森特·梵高。画作为公开作品；图像来源与使用说明随各作品列出。",
     "creditsSources": "图像署名与来源",
     "credits": "图像署名",
     "closeCredits": "关闭图像署名",
@@ -81,7 +81,7 @@
     "language": "展览语言",
     "switchZh": "切换至简体中文",
     "switchEn": "切换至英语",
-    "description": "文森特·梵高的二十幅画作，五幕细腻的情感旅程，以及策展人亲选的音乐。一幅画。一首歌。一种私人的解读。",
+    "description": "文森特·梵高的二十幅画作，五幕细腻的情感旅程，以及策展人挑选的音乐。一幅画。一首歌。一种私人的解读。",
     "shareImageAlt": "《盛开的杏花》，文森特·梵高，1890 年。阿姆斯特丹梵高博物馆藏。公有领域复制图像。",
     "chapterPeriod": "。"
   },
@@ -129,7 +129,7 @@
       "license": "公有领域"
     },
     "starry-night": {
-      "title": "星月夜",
+      "title": "星夜",
       "description": "星光在流转的蓝色曲线间闪耀。一株深色柏树高高耸起，下方的小村庄静静安睡。",
       "collection": "纽约现代艺术博物馆",
       "credit": "文森特·梵高 · 纽约现代艺术博物馆 · 维基共享资源",
@@ -143,21 +143,21 @@
       "license": "公有领域"
     },
     "cafe": {
-      "title": "夜间的露天咖啡座",
-      "description": "明亮的黄色咖啡座将灯光洒向石板街道。深蓝色建筑围出一角缀满星辰的天空。",
+      "title": "夜间露台咖啡馆",
+      "description": "明亮的黄色咖啡馆将灯光洒向石板街道。深蓝色建筑围出一角缀满星辰的天空。",
       "collection": "奥特洛克勒勒-米勒博物馆（Kröller-Müller Museum）",
       "credit": "文森特·梵高 · 奥特洛克勒勒-米勒博物馆（Kröller-Müller Museum） · 维基共享资源",
       "license": "公有领域"
     },
     "courting-couples": {
-      "title": "花园中的恋人：圣皮埃尔广场",
+      "title": "圣皮埃尔广场上的花园和情侣",
       "description": "小小的人影在幼树下漫步、休憩。绿色与黄色的短笔触铺满花园和蜿蜒的小径。",
       "collection": "阿姆斯特丹梵高博物馆",
       "credit": "文森特·梵高 · 阿姆斯特丹梵高博物馆（文森特·梵高基金会） · 维基共享资源",
       "license": "公有领域"
     },
     "first-steps": {
-      "title": "第一步（临摹米勒）",
+      "title": "第一步（仿米勒）",
       "description": "一个孩子隔着花园小径，伸手走向跪地迎接他的人。浅绿的草木、蓝色衣衫与开花的树，环抱着这个家庭。",
       "collection": "纽约大都会艺术博物馆",
       "credit": "文森特·梵高 · 纽约大都会艺术博物馆 · 维基共享资源",
@@ -185,14 +185,14 @@
       "license": "公有领域"
     },
     "sea-saintes-maries": {
-      "title": "圣马利海景",
+      "title": "圣马迪拉莫附近的海景",
       "description": "前景中，蓝绿色波浪碎成白色浪尖。浅淡多云的天空下，小小帆影横越水面。",
       "collection": "阿姆斯特丹梵高博物馆",
       "credit": "文森特·梵高 · 阿姆斯特丹梵高博物馆（文森特·梵高基金会） · 维基共享资源",
       "license": "公有领域"
     },
     "cypress-star": {
-      "title": "柏树与星空下的道路",
+      "title": "星空下的丝柏路",
       "description": "高高的柏树将星辰与新月照亮的天空分开。两个人影与一辆马车，行进在浅色的蜿蜒道路上。",
       "collection": "奥特洛克勒勒-米勒博物馆（Kröller-Müller Museum）",
       "credit": "文森特·梵高 · 奥特洛克勒勒-米勒博物馆（Kröller-Müller Museum） · 维基共享资源",
@@ -206,14 +206,14 @@
       "license": "公有领域"
     },
     "olive-trees": {
-      "title": "黄天与太阳下的橄榄树",
+      "title": "黄色天空与太阳下的橄榄树",
       "description": "盘曲的橄榄树干从橙色与紫色的土地中生长出来。黄色太阳照耀着树林与一线蓝色山峦。",
       "collection": "明尼阿波利斯艺术博物馆",
       "credit": "文森特·梵高 · 明尼阿波利斯艺术博物馆 · 维基共享资源",
       "license": "公有领域"
     },
     "thunderclouds": {
-      "title": "雷云下的麦田",
+      "title": "雷雨云下的麦田",
       "description": "广阔的绿色麦田延伸至深蓝色云层之下。宽阔的横向色带，将风景推向地平线。",
       "collection": "阿姆斯特丹梵高博物馆",
       "credit": "文森特·梵高 · 阿姆斯特丹梵高博物馆（文森特·梵高基金会） · 维基共享资源",

@@ -42,7 +42,7 @@ function App(){
     <section id="entrance" tabIndex={-1} className="hero" aria-labelledby="title"><img className="hero-art" src={hero.image} alt=""/><div className="hero-shade"/>
       <motion.div className="hero-content" initial={{opacity:0,y:20}} animate={{opacity:1,y:0}} transition={{duration:1.2}}>
         <p className="eyebrow"><span/>{t('subtitle')}</p>
-        <h1 id="title">{t('titleFirst')}<br/><em>{t('titleSecond')}</em></h1><p className={locale==='zh-CN'?'hero-chinese hero-title-secondary':'hero-chinese'} lang={locale==='zh-CN'?'en':undefined} aria-hidden={locale==='en'?true:undefined}>{locale==='zh-CN'?secondaryCopy.ui.title:'\u00a0'}</p>
+        <h1 id="title">{t('titleFirst')}<br/><em>{t('titleSecond')}</em></h1><p className="hero-chinese hero-title-secondary" lang={locale==='zh-CN'?'en':'zh-CN'}>{secondaryCopy.ui.title}</p>
         <p className="hero-copy">{t('statementFirst')}<br/>{t('statementSecond')}</p>
         <div className="hero-actions"><button className="gold-button" onClick={()=>open(order[0])}>{t('enter')}<ArrowRight size={18}/></button><a className="hero-secondary" href="#exhibition">{t('exploreAll')}<ArrowUpRight size={16}/></a></div>
       </motion.div>
