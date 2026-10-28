@@ -1,4 +1,4 @@
-# A World Through Two Souls
+# A World Through Two Senses
 
 **One painting. One song. One personal interpretation.**
 
@@ -80,7 +80,7 @@ Edit existing values rather than adding duplicate IDs. Notes are optional plain 
 
 ## Deploy to Vercel
 
-Recommended repository name: **`a-world-through-two-souls`**. Import the repository from your personal GitHub account into Vercel. This exhibition is prepared for a public repository and public website.
+Public repository: [caseyliukexin/Hobby](https://github.com/caseyliukexin/Hobby). Production website: [A World Through Two Senses](https://hobby-rho-ten.vercel.app/). The existing Vercel project deploys from `main`.
 
 | Setting | Value |
 | --- | --- |
