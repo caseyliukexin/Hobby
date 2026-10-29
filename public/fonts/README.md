@@ -10,3 +10,12 @@ To regenerate after adding Chinese characters, install Python fonttools and brot
 The previous implementation supplied no Chinese fonts: headings depended on Songti SC / Noto Serif CJK SC / SimSun, and body copy on generic sans-serif. Mobile CSS adjusted sizes but not families. The available browser automation cannot expose the old platform-resolved font names; computed CSS stacks are not proof of the rendered font. Actual iOS/Android devices were not available. Noto Serif preserves the Song-style serif direction; Noto Sans preserves the body/UI sans-serif direction. Rasterization can still differ slightly by device.
 
 Preloads start both small subsets early; font-display: swap keeps text readable if loading is delayed. A slow network can still cause a brief fallback or minor reflow; zero layout shift under every network condition is not guaranteed.
+
+## Latin fonts (2026-10-29)
+
+Cormorant Garamond (normal 400/500/600, italic 400/500) and DM Sans
+(normal 400/500/600) are served from this directory to avoid runtime requests
+to Google Fonts. The original Google Fonts CSS faces were downloaded and
+losslessly repackaged from TrueType to WOFF2 using fontTools; their existing
+CSS family names, styles, weights and `font-display: swap` are retained.
+The accompanying OFL files are from the official google/fonts repository.
