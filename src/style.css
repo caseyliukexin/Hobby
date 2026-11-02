@@ -75,6 +75,6 @@ header>.language-switch{position:static;order:5}
 
 .hero-title-secondary:lang(zh-CN){font-family:Georgia,'Exhibition Chinese Serif','Songti SC','Noto Serif CJK SC','SimSun',serif}
 
-/* One quiet, same-origin handwritten signature at the exhibition's ending. */
-@font-face{font-family:'Exhibition Signature';src:url('/fonts/Allura-signature.woff2') format('woff2');font-style:normal;font-weight:400;font-display:swap}
-.conclusion .exhibition-signature{font-family:'Exhibition Signature','Cormorant Garamond',serif;font-size:clamp(32px,3vw,40px);font-style:normal;font-weight:400;line-height:1.5;letter-spacing:0;color:#59634f;margin:24px 0 0;padding:0 12px;overflow-wrap:normal}
+/* One native Sacramento signature at the bottom of the exhibition. */
+@font-face{font-family:'Sacramento';src:url('/fonts/Sacramento-Regular.woff2') format('woff2');font-style:normal;font-weight:400;font-display:swap}
+footer .exhibition-signature{font-family:'Sacramento','Cormorant Garamond',serif;font-size:clamp(28px,2.5vw,32px);font-style:normal;font-weight:400;font-synthesis:none;line-height:1.65;letter-spacing:0;color:#59634f;text-align:center;margin:22px 0 0;padding:0 12px env(safe-area-inset-bottom,0px);overflow-wrap:normal}

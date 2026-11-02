@@ -21,6 +21,6 @@ CSS family names, styles, weights and `font-display: swap` are retained.
 The accompanying OFL files are from the official google/fonts repository.
 
 ## Exhibition signature
-Allura by The Allura Project Authors, SIL Open Font License 1.1 (Allura-OFL.txt).
-Source: https://github.com/google/fonts/tree/main/ofl/allura
-Allura-signature.woff2 is a WOFF2 subset for “Made by Casey Liu”, retaining layout features. Self-hosted; no external font requests.
+Sacramento Regular by Brian J. Bonislawsky / Astigmatic, SIL Open Font License 1.1 (Sacramento-OFL.txt).
+Source: https://github.com/google/fonts/tree/main/ofl/sacramento
+Sacramento-Regular.woff2 is the complete original font losslessly packaged as WOFF2. Native glyphs, regular 400 weight and normal style; no synthetic bold or italic. Self-hosted with no external font requests.
