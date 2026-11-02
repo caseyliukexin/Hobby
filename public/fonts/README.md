@@ -19,3 +19,8 @@ to Google Fonts. The original Google Fonts CSS faces were downloaded and
 losslessly repackaged from TrueType to WOFF2 using fontTools; their existing
 CSS family names, styles, weights and `font-display: swap` are retained.
 The accompanying OFL files are from the official google/fonts repository.
+
+## Exhibition signature
+Allura by The Allura Project Authors, SIL Open Font License 1.1 (Allura-OFL.txt).
+Source: https://github.com/google/fonts/tree/main/ofl/allura
+Allura-signature.woff2 is a WOFF2 subset for “Made by Casey Liu”, retaining layout features. Self-hosted; no external font requests.

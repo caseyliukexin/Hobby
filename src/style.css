@@ -74,3 +74,7 @@ header>.language-switch{position:static;order:5}
 @media(max-width:640px){.hero-title-secondary{font-size:17px;letter-spacing:.4px}.chapter-nav>a{flex-basis:190px;grid-template-columns:24px minmax(0,1fr);padding-right:18px}.chapter-nav .directory-titles small{font-size:14px}.act-title-secondary:lang(en){font-size:19px}}
 
 .hero-title-secondary:lang(zh-CN){font-family:Georgia,'Exhibition Chinese Serif','Songti SC','Noto Serif CJK SC','SimSun',serif}
+
+/* One quiet, same-origin handwritten signature at the exhibition's ending. */
+@font-face{font-family:'Exhibition Signature';src:url('/fonts/Allura-signature.woff2') format('woff2');font-style:normal;font-weight:400;font-display:swap}
+.conclusion .exhibition-signature{font-family:'Exhibition Signature','Cormorant Garamond',serif;font-size:clamp(32px,3vw,40px);font-style:normal;font-weight:400;line-height:1.5;letter-spacing:0;color:#59634f;margin:24px 0 0;padding:0 12px;overflow-wrap:normal}
