@@ -77,4 +77,4 @@ header>.language-switch{position:static;order:5}
 
 /* One native Sacramento signature at the bottom of the exhibition. */
 @font-face{font-family:'Sacramento';src:url('/fonts/Sacramento-Regular.woff2') format('woff2');font-style:normal;font-weight:400;font-display:swap}
-footer .exhibition-signature{font-family:'Sacramento','Cormorant Garamond',serif;font-size:clamp(28px,2.5vw,32px);font-style:normal;font-weight:400;font-synthesis:none;line-height:1.65;letter-spacing:0;color:#59634f;text-align:center;margin:22px 0 0;padding:0 12px env(safe-area-inset-bottom,0px);overflow-wrap:normal}
+footer .exhibition-signature{font-family:'Sacramento','Cormorant Garamond',serif;font-size:clamp(14px,1.25vw,16px);font-style:normal;font-weight:400;font-synthesis:none;line-height:1.65;letter-spacing:0;color:#6c7169;text-align:center;margin:22px 0 0;padding:0 12px env(safe-area-inset-bottom,0px);overflow-wrap:normal}
